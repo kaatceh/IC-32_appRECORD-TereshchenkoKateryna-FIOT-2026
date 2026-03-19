@@ -5,8 +5,8 @@
 **Мета:** Коротко описати мету.
 
 **Місце розташування:**
-- GitHub: (встав посилання)
-- Live demo: (встав посилання)
+- Репозиторій власного веб-застосунку (GitHub): https://github.com/kaatceh/student-notes-system-lab1
+- Власний веб-застосунок (Жива сторінка): https://kaatceh.github.io/student-notes-system-lab1/
 - Репозиторій звітного HTML-документа (GitHub): 
 https://github.com/kaatceh/IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026
 - Звітний HTML-документ (Жива сторінка)
