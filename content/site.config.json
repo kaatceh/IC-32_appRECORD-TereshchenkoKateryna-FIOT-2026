@@ -4,10 +4,10 @@
     "subjectLine": "з дисципліни «WEB-ОРІЄНТОВАНІ ТЕХНОЛОГІЇ. BACKEND РОЗРОБКИ»"
   },
   "student": {
-    "fullName": "Прізвище Ім’я По батькові",
-    "group": "Іx-xx",
-    "gender": "male",
-    "photo": "/students/chad.jpg"
+    "fullName": "Терещенко Катерина Вікторівна",
+    "group": "ІС-32",
+    "gender": "female",
+    "photo": ""
   },
   "toc": {
     "minDepth": 2,
