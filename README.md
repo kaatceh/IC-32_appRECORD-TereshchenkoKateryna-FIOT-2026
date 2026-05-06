@@ -1,182 +1,20 @@
-# Labs Markdown Template (SvelteKit)
+# IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026
 
-Шаблон для оформлення лабораторних / практичних робіт у Markdown з автоматичним меню (Зміст) та навігацією по роботах.
+Звітний HTML-документ для оформлення лабораторних робіт у форматі Markdown з автоматичною публікацією на GitHub Pages.
 
----
+## Студент
 
-## 1. Швидкий старт
+Терещенко Катерина  
+Група: ІС-32
 
-```bash
-pnpm i
-pnpm svelte-kit sync
-pnpm dev --open
-```
+## Посилання
 
----
+- GitHub Pages: https://kaatceh.github.io/IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026/
+- Репозиторій web-застосунку: https://github.com/kaatceh/student-notes-system-lab1
+- Web-застосунок: https://kaatceh.github.io/student-notes-system-lab1/
 
-## 2. ВАЖЛИВО: Назва репозиторію (GitHub Pages)
+## Технології
 
-Якщо ви плануєте публікацію на GitHub Pages, **назва репозиторію має значення**.
-
-Рекомендується називати репозиторій за шаблоном:
-
-```
-Ix-xx_appRECORD-LastnameFirstname-FIOT-202x
-```
-
-Наприклад:
-
-```
-IO-35_appRECORD-StepanovOleksandr-FIOT-2026
-```
-
-або будь-яким іншим форматом, який вимагає викладач.
-
-### Після перейменування репозиторію ОБОВʼЯЗКОВО змініть base-path
-
-Відкрийте файл:
-
-```
-base-path.js
-```
-
-Знайдіть рядок:
-
-```js
-export const BASE_PATH =
-  process.env.BASE_PATH ??
-  (process.env.NODE_ENV === "production" ? "/Labs-Markdown-Template" : "");
-```
-
-І замініть:
-
-```
-"/Labs-Markdown-Template"
-```
-
-на:
-
-```
-"/ВАША-НАЗВА-РЕПОЗИТОРІЮ"
-```
-
-Наприклад:
-
-```js
-export const BASE_PATH =
-  process.env.BASE_PATH ??
-  (process.env.NODE_ENV === "production" ? "/IO-35_appRECORD-StepanovOleksandr-FIOT-2025" : "");
-```
-
-Назва повинна повністю збігатися з назвою репозиторію на GitHub.
-
-Інакше:
-- зламаються стилі
-- не будуть працювати картинки
-- роутинг видаватиме 404
-
----
-
-## 3. Налаштування студента
-
-Відкрийте:
-
-```
-content/site.config.json
-```
-
-Заповніть:
-
-- report.title
-- report.subjectLine
-- student.fullName
-- student.group
-- student.gender
-- student.photo
-- labs[]
-
-Slug у labs повинен збігатися з назвою markdown-файлу.
-
----
-
-## 4. Додавання лабораторної
-
-Створіть файл:
-
-```
-content/labs/lab-1.md
-```
-
-Slug у конфігу:
-
-```json
-{
-  "slug": "lab-1"
-}
-```
-
----
-
-## 5. Структура markdown-файлу
-
-Орієнтуйтесь на готовий приклад у репозиторії:
-
--   [content/labs/lab-1.md](/content/labs/lab-1.md)
-
-У цьому файлі показано рекомендовану структуру розділів, заголовків,
-блоків коду та вставки скріншотів.
-
-Також можна переглянути приклади повністю оформлених лабораторних робіт
-у гілці:
-
--   [chore/examples](https://github.com/pliffdax/Labs-Markdown-Template/tree/chore/examples)
-
-У цій гілці містяться завершені приклади (lab-1 --- lab-6), які можна
-використовувати як зразок структури та оформлення.
-
-Рекомендується дотримуватись наведеної структури для коректної роботи
-меню та навігації по роботах.
-
-### Мінімальна рекомендована структура
-
--   `##` --- основний розділ
--   `###` --- підрозділ
--   `---` --- розділювач (для візуального структурування)
--   блоки коду --- звичайні fenced code blocks
--   скріншоти --- через `![](...)` (див. також пункт 6)
-
----
-
-## 6. Додавання зображень
-
-Складати зображення сюди:
-
-```
-static/assets/labs/lab-1/
-```
-
-Вставляти у Markdown:
-
-```md
-![Скрін 1](/assets/labs/lab-1/screen-1.png)
-```
-
----
-
-## 7. Деплой на GitHub Pages
-
-1. Увімкніть GitHub Actions у Settings → Pages
-2. Source → GitHub Actions
-3. Пуш у main автоматично задеплоїть сайт
-
----
-
-## 8. Типові помилки
-
-- Не збігається slug і назва файлу
-- Не змінено base-path після перейменування репозиторію
-- Картинки лежать не в static/
-
----
-
-Проєкт є звичайним SvelteKit-проєктом і може бути розгорнутий як статичний сайт.
+- Markdown
+- SvelteKit
+- GitHub Pages
