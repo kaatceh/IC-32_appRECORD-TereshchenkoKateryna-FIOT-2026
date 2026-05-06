@@ -235,13 +235,13 @@ https://kaatceh.github.io/IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026/
 
 ```## Скріншоти
 
-![Головна](/IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026/assets/labs/lab-1/screen-1.png)
+![Головна](../assets/labs/lab-1/screen-1.png)
 ![Мобільна версія](/IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026/assets/labs/lab-1/screen-2.png)
 
 ---
 ## Use-case діаграма
 
-![Use-case](/IC-32_appRECORD-TereshchenkoKateryna-FIOT-2026/assets/labs/lab-1/usecase.png)
+![Use-case](./assets/labs/lab-1/usecase.png)
 
 Use-case діаграма відображає основні сценарії взаємодії користувача з веб-застосунком. 
 Користувач може переглядати сторінки сайту, переглядати нотатки, здійснювати навігацію між розділами та використовувати меню.
